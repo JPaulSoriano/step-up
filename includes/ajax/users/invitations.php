@@ -33,8 +33,8 @@ switch ($_GET['do']) {
 			/* assign variables */
 			$smarty->assign('code', $code);
 			/* return */
-			// $return['template'] = $smarty->fetch("ajax.invitations.tpl");
-			// $return['callback'] = "$('#modal').modal('show'); $('.modal-content:last').html(response.template);";
+			$return['template'] = $smarty->fetch("ajax.invitations.tpl");
+			$return['callback'] = "$('#modal').modal('show'); $('.modal-content:last').html(response.template);";
 
 			// return & exit
 			return_json($return);
