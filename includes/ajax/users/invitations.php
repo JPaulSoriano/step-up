@@ -26,7 +26,7 @@ switch ($_GET['do']) {
 		try {
 
 			// initialize the return array
-			$return = json_encode($array);
+			$return = array();
 
 			// generate new invitation code
 			$code = $user->generate_invitation_code();
