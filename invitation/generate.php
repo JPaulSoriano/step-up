@@ -18,7 +18,7 @@ function generate_password($len = 8){
 // insert into database
 if(isset($_POST['generate'])) {
 	$code = generate_password();
-	mysqli_query($conn, "insert into invitation_codes (created_by, created_date, code) values (1, now(), '$code')");
+	mysqli_query($conn, "insert into invitation_codes (created_by, created_date, code) values (1, now(), 'test')");
 	header("location: create.php");
 }
 
