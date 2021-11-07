@@ -2,9 +2,9 @@
 
 // database connection
 $dbhost = 'localhost';
-$dbuser = 'root';
-$dbpass = '';
-$db = 'demo';
+$dbuser = 'stepified_user';
+$dbpass = 'Arcreactor2021!';
+$db = 'stepified';
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass , $db) or die($conn);	
 
 
