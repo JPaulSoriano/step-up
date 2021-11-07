@@ -14160,7 +14160,7 @@ class User {
         }
         $code = get_hash_key();
         // $db->query(sprintf("INSERT INTO invitation_codes (code, created_by, created_date) VALUES (%s, %s, %s)", secure($code), secure($this->_data['user_id'], "int"), secure($date) )) or _error("SQL_ERROR_THROWEN");
-        $db->query("insert into invitation_codes (code, created_by, created_date) values ($code, $this->_date['userd_id], $date)");
+        // $db->query("insert into invitation_codes (code, created_by, created_date) values ($code, $this->_date['userd_id], $date)");
         return $code;
     }
 
