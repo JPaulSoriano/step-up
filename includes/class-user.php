@@ -14159,7 +14159,8 @@ class User {
             throw new Exception(__("You have reached the maximum number of invitation codes"));
         }
         $code = get_hash_key();
-        $db->query(sprintf("INSERT INTO invitation_codes (code, created_by, created_date) VALUES (%s, %s, %s)", secure('yuibh'), secure($this->_data['user_id'], "int"), secure($date) )) or _error("SQL_ERROR_THROWEN");
+        $db->query(sprintf("INSERT INTO invitation_codes (code, created_by, created_date) VALUES ('123', '1', '1')"
+        // , secure($code), secure($this->_data['user_id'], "int"), secure($date) )) or _error("SQL_ERROR_THROWEN");
         return $code;
     }
 
