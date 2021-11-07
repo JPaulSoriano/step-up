@@ -37,7 +37,7 @@ switch ($_GET['do']) {
 			// $return['callback'] = "$('#modal').modal('show'); $('.modal-content:last').html(response.template);";
 
 			// // return & exit
-			// return_json($return);
+			return_json($return);
 
 		} catch (Exception $e) {
 			modal("ERROR", __("Error"), $e->getMessage());
