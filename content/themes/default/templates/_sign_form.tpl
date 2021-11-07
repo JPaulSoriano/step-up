@@ -3,7 +3,7 @@
     <!-- signin -->
     <div class="js_panel {if $do == 'up'}x-hidden{/if}">
         <div class="card-header">
-            <img class="card-img" src="{$system['system_url']}/content/themes/{$system['theme']}/images/home/square1.jpg">
+            {* <img class="card-img" src="{$system['system_url']}/content/themes/{$system['theme']}/images/home/square1.jpg"> *}
             <h4 class="card-title">{__("Login")}</h4>
         </div>
         <div class="card-body">
