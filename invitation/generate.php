@@ -2,10 +2,11 @@
 
 // database connection
 $dbhost = 'localhost';
+$dbport = '3306';
 $dbuser = 'stepified_user';
 $dbpass = 'Arcreactor2021!';
 $db = 'stepified';
-$conn = mysqli_connect($dbhost, $dbuser, $dbpass , $db) or die($conn);	
+$conn = mysqli_connect($dbhost, $dbport, $dbuser, $dbpass , $db) or die($conn);	
 
 // create function for generate random password
 function generate_password($len = 8){
