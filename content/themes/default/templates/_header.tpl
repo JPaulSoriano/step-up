@@ -266,7 +266,7 @@
                                                 <div class="dropdown-menu dropdown-menu-right">
                                                     <a class="dropdown-item" href="{$system['system_url']}/signin">{__("Login")}</a>
                                                     {if $system['registration_enabled']}
-                                                        <a class="dropdown-item" href="{$system['system_url']}/signup">{__("Register")}</a>
+                                                        {* <a class="dropdown-item" href="{$system['system_url']}/signup">{__("Register")}</a> *}
                                                     {/if}
                                                     {if ($system['themes'] && count($system['themes']) > 1) || $system['system_theme_mode_select']}
                                                         <div class="dropdown-divider"></div>
