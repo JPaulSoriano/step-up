@@ -289,7 +289,7 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                                             </div>
-                                            <input type="email" class="form-control" name="email" value="{$user->_data['user_email']}">
+                                            <input type="email" class="form-control" name="email" value="{$user->_data['user_email']}" readonly>
                                         </div>
                                     </div>
                                 </div>
