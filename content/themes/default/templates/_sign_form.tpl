@@ -85,8 +85,8 @@
     <!-- signup -->
     <div class="js_panel {if $do != 'up'}x-hidden{/if}">
         <div class="card-header">
-           <img class="card-img" src="{$system['system_url']}/content/themes/{$system['theme']}/images/home/square1.jpg">
-            <h4 class="card-title">{__("Register")}</h4>
+           { * <img class="card-img" src="{$system['system_url']}/content/themes/{$system['theme']}/images/home/square1.jpg">
+            <h4 class="card-title">{__("Register")}</h4> * }
         </div>
         <div class="card-body">
             <form class="js_ajax-forms" data-url="core/signup.php" method="POST">
