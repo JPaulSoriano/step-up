@@ -4,7 +4,7 @@
     <div class="js_panel {if $do == 'up'}x-hidden{/if}">
         <div class="card-header">
             {* <img class="card-img" src="{$system['system_url']}/content/themes/{$system['theme']}/images/home/square1.jpg"> *}
-            <h4 class="card-title">{__("Login")}</h4>
+            {* <h4 class="card-title">{__("Login")}</h4> *}
         </div>
         <div class="card-body">
             {if isset($highlight)}<div class="alert alert-warning">{$highlight}</div>{/if}
@@ -74,9 +74,9 @@
                 {/if}
             {/if}
             {if $system['registration_enabled']}
-                <div class="mt20 text-center">
+                {* <div class="mt20 text-center">
                     {__("Not registered?")} <a href="{$system['system_url']}/signup" class="js_toggle-panel text-link">{__("Create an account")}</a>
-                </div>
+                </div> *}
             {/if}
         </div>
     </div>
