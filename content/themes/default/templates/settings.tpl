@@ -435,12 +435,12 @@
                                 <div class="row">
                                     <div class="form-group col-md-6">
                                         <label class="form-control-label">{__("First Name")}</label>
-                                        <input type="text" class="form-control" name="firstname" value="{$user->_data['user_firstname']}">
+                                        <input type="text" class="form-control" name="firstname" value="{$user->_data['user_firstname']}" readonly>
                                     </div>
 
                                     <div class="form-group col-md-6">
                                         <label class="form-control-label">{__("Last Name")}</label>
-                                        <input type="text" class="form-control" name="lastname" value="{$user->_data['user_lastname']}">
+                                        <input type="text" class="form-control" name="lastname" value="{$user->_data['user_lastname']}" readonly>
                                     </div>
 
                                     <div class="form-group col-md-6">
