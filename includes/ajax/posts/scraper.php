@@ -30,7 +30,6 @@ try {
 	if($link) {
 		/* return */
 		$return['link'] = $link;
-		ini_set("display_errors","On");  
 	}
 
 } catch (Exception $e) {
