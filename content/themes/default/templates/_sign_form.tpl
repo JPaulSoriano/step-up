@@ -284,9 +284,9 @@
                     </div>
                 {/if}
             {/if}
-            <div class="mt20 text-center">
+            {* <div class="mt20 text-center">
                 {__("Have an account?")} <a href="{$system['system_url']}/signin" class="js_toggle-panel text-link">{__("Login Now")}</a>
-            </div>
+            </div> *}
         </div>
     </div>
     <!-- signup -->
